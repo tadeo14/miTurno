@@ -2,17 +2,19 @@
 
 ## Acerca del Proyecto
 
-miTurno es una aplicación de reserva de turnos impulsada por React.JS, Express y MongoDB que proporciona las funciones principales que esperaría un usuario tanto para visualizar, solicitar y modificar turnos como para administrar sucursales y confirmar asistencia del usuario a dichos turnos como administrador.
+"miTurno" es una aplicación web que permite a los clientes de un servicio, ofrecido por empresas de distintos rubros con sucursales físicas, la reserva de turnos, su edición y cancelación. Asimismo, permite su gestión desde un rol de Operador y de Administrador de una sucursal, posibilitando la visualización de las reservas realizadas, la confirmación del turno, la creación de sucursales, con sus rangos horarios y clientes en simultáneo que pueden ser atendidos, y en el caso particular del Administrador, la gestión de los Operadores, como su reubicación en otra sucursal.
 
-Este proyecto fue realizado gracias a [#Plataforma5](https://www.plataforma5.la/) y [#CRUCE](https://www.e-cruce.com/) a fin de impulsarnos en nuestro desarollo como Developers.
-
-## Construido con
-#### ReactJS
-#### Bootstrap
-#### NodeJS
-#### Express
-#### MongoDB / MongoDB Atlas
-#### Mongoose
+## Stack de tecnologías utilizadas
+#### Back End: 
+NodeJS, Express, JWT
+#### Front End: 
+React, Redux, Bootstrap
+#### Base de datos: 
+MongoDB empleando Mongoose y MongoDB Atlas
+#### Project management: 
+Atlassian Jira
+#### Otros: 
+Wireframe.cc, Mailtrap, Nodemailer y Lucidchart
 
 ## Configuración
 
@@ -28,3 +30,13 @@ Después de clonar el repositorio y haber instalado las dependencias. Podes corr
 ```sh 
 npm start
 ```
+## Datos para probar la aplicación
+
+```sh 
+email: matias@mail.com
+password: Matias123
+```
+
+## Video
+
+[![miTurno](https://img.youtube.com/vi/d3Ftu_9RwU8/sddefault.jpg)](https://www.youtube.com/watch?v=d3Ftu_9RwU8 "Everything Is AWESOME")
